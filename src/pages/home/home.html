@@ -1,14 +1,25 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      Ionic Blank
+      Hongkwamkit
     </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+  <div class="showhead">
+    <img src="assets/imgs/logo.png" alt="">
+    <p>Welcome</p>
+  </div>
+  <ion-list>
+    <ion-item (click)=gotoAbout()>
+      <ion-icon name="add" item-start></ion-icon>A
+    </ion-item>
+    <ion-item>
+      <ion-icon name="add" item-start></ion-icon>B
+    </ion-item>
+    <ion-item>
+      <ion-icon name="add" item-start></ion-icon>C
+    </ion-item>
+  </ion-list>
 </ion-content>
