@@ -8,18 +8,18 @@
 
 <ion-content padding>
   <div class="showhead">
-    <img src="assets/imgs/logo.png" alt="">
+    <img src="assets/imgs/600x600bf.png" alt="">
     <p>Welcome</p>
   </div>
   <ion-list>
     <ion-item (click)=gotoAbout()>
-      <ion-icon name="add" item-start></ion-icon>A
+      <ion-icon name="add-circle"></ion-icon> About
     </ion-item>
-    <ion-item>
-      <ion-icon name="add" item-start></ion-icon>B
+    <ion-item (click)=gotoNew()>
+      <ion-icon name="arrow-dropright-circle"></ion-icon> New
     </ion-item>
-    <ion-item>
-      <ion-icon name="add" item-start></ion-icon>C
+    <ion-item (click)=gotoNext()>
+      <ion-icon name="checkbox"></ion-icon> Next
     </ion-item>
   </ion-list>
 </ion-content>
