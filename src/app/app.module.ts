@@ -8,8 +8,8 @@ import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { AboutPage } from '../pages/about/about';
 import { NewPage } from '../pages/new/new';
-import { NewPage } from '../pages/new/new';
 import { NextPage } from '../pages/next/next';
+import { SlidesPage } from '../pages/slides/slides';
 
 @NgModule({
   declarations: [
@@ -17,7 +17,8 @@ import { NextPage } from '../pages/next/next';
     HomePage,
     AboutPage,
     NewPage,
-    NextPage
+    NextPage,
+    SlidesPage 
   ],
   imports: [
     BrowserModule,
@@ -29,7 +30,8 @@ import { NextPage } from '../pages/next/next';
     HomePage,
     AboutPage,
     NewPage,
-    NextPage
+    NextPage,
+    SlidesPage 
   ],
   providers: [
     StatusBar,

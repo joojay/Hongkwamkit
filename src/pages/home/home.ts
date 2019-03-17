@@ -3,6 +3,7 @@ import { NavController } from 'ionic-angular';
 import { AboutPage } from '../about/about';
 import { NewPage } from '../new/new';
 import { NextPage } from '../next/next';
+import { SlidesPage } from '../slides/slides';
 
 @Component({
   selector: 'page-home',
@@ -19,8 +20,10 @@ export class HomePage {
   gotoNew(){
     this.navCtrl.push(NewPage);
   }
-
   gotoNext(){
     this.navCtrl.push(NextPage);
+  }
+  gotoSlides(){
+    this.navCtrl.push(SlidesPage);
   }
 }
